@@ -1,0 +1,31 @@
+Test evaluation of infix expressions 
+------------------------------------------------------
+Infix expr: 3+4*5
+Converted postfix expr: 345*+
+3+4*5 = 23
+------------------------------------------------------
+Infix expr: (3+4)*5
+Converted postfix expr: 34+5*
+(3+4)*5 = 35
+------------------------------------------------------
+Infix expr: (3+4)*5+6
+Converted postfix expr: 34+5*6+
+(3+4)*5+6 = 41
+------------------------------------------------------
+Infix expr: (3+4)*5+6/7
+Converted postfix expr: 34+5*67/+
+(3+4)*5+6/7 = 35.8571
+------------------------------------------------------
+Infix expr: (3+4)*5+6/(7+8)
+Converted postfix expr: 34+5*678+/+
+(3+4)*5+6/(7+8) = 35.4
+------------------------------------------------------
+Infix expr: (3+4)*5+6/(7+8)-9
+Converted postfix expr: 34+5*678+/9-+
+(3+4)*5+6/(7+8)-9 = 26.4
+------------------------------------------------------
+Infix expr: (3+4)*5+6/(7+8)&9
+Converted postfix expr: Error: Invalid character &
+
+Error: Invalid character &
+(3+4)*5+6/(7+8)&9 Invalid expression!

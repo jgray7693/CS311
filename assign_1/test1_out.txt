@@ -1,0 +1,31 @@
+*** Test 1: Basic *** 
+Step 1: check empty and report the result
+It is empty
+Step 2: display the list
+[]
+Step 3:  adding 1 2 3 4
+Step 4: display the list
+[1, 2, 3, 4]
+Step 5:  delete Front twice
+Removed: 1
+Removed: 2
+Step 6: display the list
+[3, 4]
+Step 7: check empty and report the result
+It is not empty
+Step 8:  deleteRear twice
+Removed: 4
+[3]
+Removed: 3
+Step 9: check empty again and report the result
+It is empty
+Step 10: add to front 4 times (elements 9, 8, 6, 5)
+Step 11: display the list
+[5, 6, 8, 9]
+Step 12: remove from the rear 4 times (display the elements removed)
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13: display the list again
+[]

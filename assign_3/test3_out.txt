@@ -1,0 +1,10 @@
+Original: [6, 1, 2, 3, 4, 5, 0, -1, -2, -3, -4]
+Hybrid quick sort
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6]
+Reversed hybrid quick sort
+[6, 5, 4, 3, 2, 1, 0, -1, -2, -3, -4]
+**** Run Time Tests ****
+Array size: 100000
+Time for insertion sort: 5.39123 seconds
+Time for quick sort: 0.0117423 seconds
+Time for hybrid quick sort: 0.010534 seconds

@@ -1,0 +1,122 @@
+Inserting -23
+tree: -23 
+balance factor: 0 
+Inserting -38
+tree: -38 -23 
+balance factor: 0 1 
+Inserting 37
+tree: -38 -23 37 
+balance factor: 0 0 0 
+Inserting -8
+tree: -38 -23 -8 37 
+balance factor: 0 -1 0 1 
+Inserting 15
+tree: -38 -23 -8 15 37 
+balance factor: 0 -1 0 0 0 
+Inserting 23
+tree: -38 -23 -8 15 23 37 
+balance factor: 0 0 0 0 0 1 
+Inserting -6
+tree: -38 -23 -8 -6 15 23 37 
+balance factor: 0 -1 -1 0 1 0 1 
+Inserting -27
+tree: -38 -27 -23 -8 -6 15 23 37 
+balance factor: -1 0 0 -1 0 1 0 1 
+Inserting 22
+tree: -38 -27 -23 -8 -6 15 22 23 37 
+balance factor: -1 0 0 -1 0 1 0 0 0 
+Inserting -43
+tree: -43 -38 -27 -23 -8 -6 15 22 23 37 
+balance factor: 0 0 0 0 -1 0 1 0 0 0 
+Inserting -20
+tree: -43 -38 -27 -23 -20 -8 -6 15 22 23 37 
+balance factor: 0 0 0 0 0 0 0 1 0 0 0 
+Inserting -47
+tree: -47 -43 -38 -27 -23 -20 -8 -6 15 22 23 37 
+balance factor: 0 1 1 0 0 0 0 0 0 0 0 0 
+Inserting 28
+tree: -47 -43 -38 -27 -23 -20 -8 -6 15 22 23 28 37 
+balance factor: 0 1 1 0 -1 0 0 0 -1 0 -1 0 1 
+Inserting -1
+tree: -47 -43 -38 -27 -23 -20 -8 -6 -1 15 22 23 28 37 
+balance factor: 0 1 1 0 -1 0 -1 -1 0 0 0 -1 0 1 
+Inserting -41
+tree: -47 -43 -41 -38 -27 -23 -20 -8 -6 -1 15 22 23 28 37 
+balance factor: 0 0 0 1 0 -1 0 -1 -1 0 0 0 -1 0 1 
+Inserting -21
+tree: -47 -43 -41 -38 -27 -23 -21 -20 -8 -6 -1 15 22 23 28 37 
+balance factor: 0 0 0 1 0 -1 0 1 0 -1 0 0 0 -1 0 1 
+Inserting 8
+tree: -47 -43 -41 -38 -27 -23 -21 -20 -8 -6 -1 8 15 22 23 28 37 
+balance factor: 0 0 0 1 0 -1 0 1 0 0 0 0 0 0 -1 0 1 
+Inserting 19
+tree: -47 -43 -41 -38 -27 -23 -21 -20 -8 -6 -1 8 15 19 22 23 28 37 
+balance factor: 0 0 0 1 0 -1 0 1 0 0 0 0 0 0 1 0 0 1 
+Inserting 42
+tree: -47 -43 -41 -38 -27 -23 -21 -20 -8 -6 -1 8 15 19 22 23 28 37 42 
+balance factor: 0 0 0 1 0 -1 0 1 0 0 0 0 0 0 1 0 0 0 0 
+Inserting -10
+tree: -47 -43 -41 -38 -27 -23 -21 -20 -10 -8 -6 -1 8 15 19 22 23 28 37 42 
+balance factor: 0 0 0 1 0 -1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+Removing -23
+tree: -47 -43 -41 -38 -27 -21 -20 -10 -8 -6 -1 8 15 19 22 23 28 37 42 
+balance factor: 0 0 0 1 0 -1 -1 0 0 0 0 0 0 0 1 0 0 0 0 
+Removing -38
+tree: -47 -43 -41 -27 -21 -20 -10 -8 -6 -1 8 15 19 22 23 28 37 42 
+balance factor: 0 -1 0 1 -1 -1 0 0 0 0 0 0 0 1 0 0 0 0 
+Removing 37
+tree: -47 -43 -41 -27 -21 -20 -10 -8 -6 -1 8 15 19 22 23 28 42 
+balance factor: 0 -1 0 1 -1 -1 0 0 0 0 0 0 0 1 0 0 1 
+Removing -8
+tree: -47 -43 -41 -27 -21 -20 -10 -6 -1 8 15 19 22 23 28 42 
+balance factor: 0 -1 0 1 -1 -1 0 0 -1 0 0 0 1 0 0 1 
+Removing 15
+tree: -47 -43 -41 -27 -21 -20 -10 -6 -1 8 19 22 23 28 42 
+balance factor: 0 -1 0 1 -1 -1 0 0 -1 0 0 0 -1 0 1 
+Removing 23
+tree: -47 -43 -41 -27 -21 -20 -10 -6 -1 8 19 22 28 42 
+balance factor: 0 -1 0 1 -1 -1 0 0 -1 0 1 0 0 0 
+Removing -6
+tree: -47 -43 -41 -27 -21 -20 -10 -1 8 19 22 28 42 
+balance factor: 0 -1 0 1 -1 -1 0 1 0 1 0 0 0 
+Removing -27
+tree: -47 -43 -41 -21 -20 -10 -1 8 19 22 28 42 
+balance factor: 0 0 0 0 -1 0 0 0 -1 0 0 0 
+Removing 22
+tree: -47 -43 -41 -21 -20 -10 -1 8 19 28 42 
+balance factor: 0 0 0 0 -1 0 0 0 -1 -1 0 
+Removing -43
+tree: -47 -41 -21 -20 -10 -1 8 19 28 42 
+balance factor: 0 1 0 -1 0 0 0 -1 -1 0 
+Removing -20
+tree: -47 -41 -21 -10 -1 8 19 28 42 
+balance factor: 0 1 1 0 0 0 -1 -1 0 
+Removing -47
+tree: -41 -21 -10 -1 8 19 28 42 
+balance factor: 0 0 0 -1 0 -1 -1 0 
+Removing 28
+tree: -41 -21 -10 -1 8 19 42 
+balance factor: 0 0 0 0 0 0 0 
+Removing -1
+tree: -41 -21 -10 8 19 42 
+balance factor: 0 0 0 0 -1 0 
+Removing -41
+tree: -21 -10 8 19 42 
+balance factor: -1 0 0 -1 0 
+Removing -21
+tree: -10 8 19 42 
+balance factor: 0 -1 -1 0 
+Removing 8
+tree: -10 19 42 
+balance factor: 0 0 0 
+Removing 19
+tree: -10 42 
+balance factor: 0 1 
+Removing 42
+tree: -10 
+balance factor: 0 
+Removing -10
+tree: 
+balance factor: 
+
+Success

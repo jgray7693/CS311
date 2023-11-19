@@ -1,0 +1,40 @@
+Test 2: --------- Insertions and Deletions ------------
+Step 1:  add to front 4 times to make (5,6,8,9)
+Step 2: display all
+[5, 6, 8, 9]
+Step 3:  insert the value 4 at the 0th position => (4 5 6 8 9)
+[4, 5, 6, 8, 9]
+Step 4:  insert 7 at the 3rd position => (4 5 6 7 8 9)
+[4, 5, 6, 7, 8, 9]
+Step 5:  insert 10 at the 6th position => (4 5 6 7 8 9 10)
+[4, 5, 6, 7, 8, 9, 10]
+Step 6:  insert 12 at the 9th position error (out of range)
+– error (out of range)
+[4, 5, 6, 7, 8, 9, 10]
+Step 7: insert (element 0) at the -1, error (out of range)
+– error (out of range)
+[4, 5, 6, 7, 8, 9, 10]
+Step 8:  delete the 0th the element => (5 6 7 8 9 10)
+removed 4
+[5, 6, 7, 8, 9, 10]
+Step 9:  delete the element at pos=5 => (5 6 7 8 9)
+Removed: 10
+[5, 6, 7, 8, 9]
+Step 10:  delete at pos=2 => (5 6 8 9)
+Removed: 7
+[5, 6, 7, 9]
+Step 11:  delete at pos=4 (out of range)
+– error (out of range)
+[5, 6, 7, 9]
+Step 12:  delete at pos=-1 (out of range)
+– error (out of range)
+[5, 6, 7, 9]
+Step 13:  delete from rear until empty (display the elements removed)
+Removed: 9
+[5, 6, 7]
+Removed: 7
+[5, 6]
+Removed: 6
+[5]
+Removed: 5
+[]

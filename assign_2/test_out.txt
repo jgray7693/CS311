@@ -1,0 +1,7 @@
+Test the union and merge operations on linked lists
+L1: [3, 5, 8, 11]
+L2: [2, 6, 8, 9, 22, 24]
+-- Testing the union function ---
+Union: [3, 5, 8, 11, 2, 6, 9, 22, 24]
+-- Testing the union function ---
+Merged: [2, 3, 5, 6, 8, 8, 9, 11, 22, 24]

@@ -1,0 +1,30 @@
+Test evaluation of postfix expressions: 
+Testing expression: 34+5*
+34+5* = 35
+
+Testing expression: 34+5*+
+Error: invalid expression!
+34+5*+ Invalid expression!
+
+Testing expression: 34+5*9/
+34+5*9/ = 3.88889
+
+Testing expression: 34+5*9/+
+Error: invalid expression!
+34+5*9/+ Invalid expression!
+
+Testing expression: *34
+Error: invalid expression!
+*34 Invalid expression!
+
+Testing expression: 25*9+2/7+8-
+25*9+2/7+8- = 8.5
+
+Testing expression: 25@
+Error: unknown symbol
+25@ Invalid expression!
+
+Testing expression: 25*0/
+Error: division by zero
+25*0/ Invalid expression!
+

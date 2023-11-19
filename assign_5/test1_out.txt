@@ -1,0 +1,403 @@
+BST size = 100
+Checking if 3094 exists
+  BST find returned true
+Checking if 1226 exists
+  BST find returned true
+Checking if -4988 exists
+  BST find returned true
+Checking if 2739 exists
+  BST find returned true
+Checking if -1632 exists
+  BST find returned true
+Checking if 4676 exists
+  BST find returned true
+Checking if 60 exists
+  BST find returned true
+Checking if -2601 exists
+  BST find returned true
+Checking if -1416 exists
+  BST find returned true
+Checking if 2178 exists
+  BST find returned true
+Checking if 2276 exists
+  BST find returned true
+Checking if 3586 exists
+  BST find returned true
+Checking if 1808 exists
+  BST find returned true
+Checking if 788 exists
+  BST find returned true
+Checking if -3913 exists
+  BST find returned true
+Checking if 403 exists
+  BST find returned true
+Checking if -1250 exists
+  BST find returned true
+Checking if -957 exists
+  BST find returned true
+Checking if 434 exists
+  BST find returned true
+Checking if 3814 exists
+  BST find returned true
+Checking if 857 exists
+  BST find returned true
+Checking if -4154 exists
+  BST find returned true
+Checking if -4664 exists
+  BST find returned true
+Checking if 1327 exists
+  BST find returned true
+Checking if -4075 exists
+  BST find returned true
+Checking if 2281 exists
+  BST find returned true
+Checking if -933 exists
+  BST find returned true
+Checking if -579 exists
+  BST find returned true
+Checking if -2138 exists
+  BST find returned true
+Checking if 1429 exists
+  BST find returned true
+Checking if 2373 exists
+  BST find returned true
+Checking if 3456 exists
+  BST find returned true
+Checking if 2763 exists
+  BST find returned true
+Checking if 1229 exists
+  BST find returned true
+Checking if 1996 exists
+  BST find returned true
+Checking if -4941 exists
+  BST find returned true
+Checking if 2539 exists
+  BST find returned true
+Checking if 2793 exists
+  BST find returned true
+Checking if -4636 exists
+  BST find returned true
+Checking if -2223 exists
+  BST find returned true
+Checking if 4383 exists
+  BST find returned true
+Checking if -1633 exists
+  BST find returned true
+Checking if 782 exists
+  BST find returned true
+Checking if -1574 exists
+  BST find returned true
+Checking if -4114 exists
+  BST find returned true
+Checking if -1074 exists
+  BST find returned true
+Checking if 198 exists
+  BST find returned true
+Checking if 368 exists
+  BST find returned true
+Checking if -4460 exists
+  BST find returned true
+Checking if 1091 exists
+  BST find returned true
+Checking if 4582 exists
+  BST find returned true
+Checking if 1915 exists
+  BST find returned true
+Checking if 3980 exists
+  BST find returned true
+Checking if -81 exists
+  BST find returned true
+Checking if -2638 exists
+  BST find returned true
+Checking if -3687 exists
+  BST find returned true
+Checking if 1649 exists
+  BST find returned true
+Checking if -3607 exists
+  BST find returned true
+Checking if 1124 exists
+  BST find returned true
+Checking if 1505 exists
+  BST find returned true
+Checking if 4172 exists
+  BST find returned true
+Checking if 3537 exists
+  BST find returned true
+Checking if 1413 exists
+  BST find returned true
+Checking if 123 exists
+  BST find returned true
+Checking if -3127 exists
+  BST find returned true
+Checking if -630 exists
+  BST find returned true
+Checking if 3690 exists
+  BST find returned true
+Checking if 386 exists
+  BST find returned true
+Checking if -3271 exists
+  BST find returned true
+Checking if 3335 exists
+  BST find returned true
+Checking if -2433 exists
+  BST find returned true
+Checking if -4973 exists
+  BST find returned true
+Checking if -2695 exists
+  BST find returned true
+Checking if 736 exists
+  BST find returned true
+Checking if -2246 exists
+  BST find returned true
+Checking if -1865 exists
+  BST find returned true
+Checking if -1216 exists
+  BST find returned true
+Checking if -2349 exists
+  BST find returned true
+Checking if -4508 exists
+  BST find returned true
+Checking if -4455 exists
+  BST find returned true
+Checking if 3167 exists
+  BST find returned true
+Checking if 4932 exists
+  BST find returned true
+Checking if 4170 exists
+  BST find returned true
+Checking if -3579 exists
+  BST find returned true
+Checking if -1071 exists
+  BST find returned true
+Checking if -1931 exists
+  BST find returned true
+Checking if 4802 exists
+  BST find returned true
+Checking if -1105 exists
+  BST find returned true
+Checking if -978 exists
+  BST find returned true
+Checking if -1942 exists
+  BST find returned true
+Checking if 11 exists
+  BST find returned true
+Checking if 3315 exists
+  BST find returned true
+Checking if 3042 exists
+  BST find returned true
+Checking if 211 exists
+  BST find returned true
+Checking if 1862 exists
+  BST find returned true
+Checking if -3470 exists
+  BST find returned true
+Checking if -676 exists
+  BST find returned true
+Checking if 2084 exists
+  BST find returned true
+Checking if -1474 exists
+  BST find returned true
+Checking if 4956 exists
+  BST find returned true
+Checking if -4205 exists
+  BST find returned false
+Checking if -4430 exists
+  BST find returned false
+Checking if -3566 exists
+  BST find returned false
+Checking if -4622 exists
+  BST find returned false
+Checking if 2467 exists
+  BST find returned false
+Checking if 1601 exists
+  BST find returned false
+Checking if -4903 exists
+  BST find returned false
+Checking if -2098 exists
+  BST find returned false
+Checking if -1683 exists
+  BST find returned false
+Checking if 1652 exists
+  BST find returned false
+Checking if -4244 exists
+  BST find returned false
+Checking if 2301 exists
+  BST find returned false
+Checking if -4720 exists
+  BST find returned false
+Checking if -714 exists
+  BST find returned false
+Checking if 4441 exists
+  BST find returned false
+Checking if -1135 exists
+  BST find returned false
+Checking if 4689 exists
+  BST find returned false
+Checking if 3444 exists
+  BST find returned false
+Checking if 1619 exists
+  BST find returned false
+Checking if 3440 exists
+  BST find returned false
+Checking if -271 exists
+  BST find returned false
+Checking if 3031 exists
+  BST find returned false
+Checking if 3117 exists
+  BST find returned false
+Checking if 3097 exists
+  BST find returned false
+Checking if 771 exists
+  BST find returned false
+Checking if -519 exists
+  BST find returned false
+Checking if -4325 exists
+  BST find returned false
+Checking if -4291 exists
+  BST find returned false
+Checking if 3927 exists
+  BST find returned false
+Checking if -433 exists
+  BST find returned false
+Checking if 2856 exists
+  BST find returned false
+Checking if 4497 exists
+  BST find returned false
+Checking if -2647 exists
+  BST find returned false
+Checking if -414 exists
+  BST find returned false
+Checking if 1965 exists
+  BST find returned false
+Checking if 306 exists
+  BST find returned false
+Checking if -317 exists
+  BST find returned false
+Checking if 1219 exists
+  BST find returned false
+Checking if 3624 exists
+  BST find returned false
+Checking if -3472 exists
+  BST find returned false
+Checking if -2129 exists
+  BST find returned false
+Checking if 732 exists
+  BST find returned false
+Checking if 3829 exists
+  BST find returned false
+Checking if 4503 exists
+  BST find returned false
+Checking if -4981 exists
+  BST find returned false
+Checking if 3270 exists
+  BST find returned false
+Checking if 4708 exists
+  BST find returned false
+Checking if 1715 exists
+  BST find returned false
+Checking if 1340 exists
+  BST find returned false
+Checking if 3149 exists
+  BST find returned false
+Checking if 2796 exists
+  BST find returned false
+Checking if -4277 exists
+  BST find returned false
+Checking if -2382 exists
+  BST find returned false
+Checking if -2755 exists
+  BST find returned false
+Checking if -2154 exists
+  BST find returned false
+Checking if -1549 exists
+  BST find returned false
+Checking if -2079 exists
+  BST find returned false
+Checking if -1445 exists
+  BST find returned false
+Checking if -2621 exists
+  BST find returned false
+Checking if 2488 exists
+  BST find returned false
+Checking if 2764 exists
+  BST find returned false
+Checking if 3228 exists
+  BST find returned false
+Checking if 4841 exists
+  BST find returned false
+Checking if -2650 exists
+  BST find returned false
+Checking if 193 exists
+  BST find returned false
+Checking if -3500 exists
+  BST find returned false
+Checking if 2034 exists
+  BST find returned false
+Checking if 2764 exists
+  BST find returned false
+Checking if -4876 exists
+  BST find returned false
+Checking if -86 exists
+  BST find returned false
+Checking if 1987 exists
+  BST find returned false
+Checking if 856 exists
+  BST find returned false
+Checking if -1257 exists
+  BST find returned false
+Checking if 1491 exists
+  BST find returned false
+Checking if -2773 exists
+  BST find returned false
+Checking if 3365 exists
+  BST find returned false
+Checking if 4859 exists
+  BST find returned false
+Checking if -3064 exists
+  BST find returned false
+Checking if -3568 exists
+  BST find returned false
+Checking if -2449 exists
+  BST find returned false
+Checking if 1437 exists
+  BST find returned false
+Checking if 4228 exists
+  BST find returned false
+Checking if -1725 exists
+  BST find returned false
+Checking if 407 exists
+  BST find returned false
+Checking if -3526 exists
+  BST find returned false
+Checking if 1121 exists
+  BST find returned false
+Checking if 3858 exists
+  BST find returned false
+Checking if -605 exists
+  BST find returned false
+Checking if 1029 exists
+  BST find returned false
+Checking if -3763 exists
+  BST find returned false
+Checking if 3235 exists
+  BST find returned false
+Checking if -1207 exists
+  BST find returned false
+Checking if 818 exists
+  BST find returned false
+Checking if -572 exists
+  BST find returned false
+Checking if 1143 exists
+  BST find returned false
+Checking if -3989 exists
+  BST find returned false
+Checking if 928 exists
+  BST find returned false
+Checking if 4529 exists
+  BST find returned false
+Checking if 3776 exists
+  BST find returned false
+Checking if -2596 exists
+  BST find returned false
+
+Success

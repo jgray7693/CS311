@@ -1,0 +1,12 @@
+Original: 
+[1, 2, 3, 4, 5, 0, -1, -2, -3, -4]
+Insertion sort linked list: 
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+Insertion sort linked list in descending order: 
+[5, 4, 3, 2, 1, 0, -1, -2, -3, -4]
+
+original: [1, 2, 3, 4, 5, 0, -1, -2, -3, -4]
+Merge sort linked list: 
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+merge sort linked list in descending order: 
+[5, 4, 3, 2, 1, 0, -1, -2, -3, -4]

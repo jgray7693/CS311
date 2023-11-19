@@ -1,0 +1,25 @@
+Inserting 12
+Height of BST: 0
+Inserting -29
+Height of BST: 1
+Inserting -1
+Height of BST: 2
+Inserting 42
+Height of BST: 2
+Inserting 43
+Height of BST: 2
+Inserting -15
+Height of BST: 3
+Inserting 27
+Height of BST: 3
+Inserting 36
+Height of BST: 3
+Inserting -35
+Height of BST: 3
+Inserting 33
+Height of BST: 4
+Leftmost value = -35
+Inorder traversal: -35 -29 -15 -1 12 27 33 36 42 43 
+BST tree size = 10
+Preorder traversal: 12 -29 -35 -1 -15 42 27 36 33 43 
+Height of the tree: 4

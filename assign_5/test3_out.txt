@@ -1,0 +1,21 @@
+Inserting 12
+Inserting -29
+Inserting -1
+Inserting 42
+Inserting 43
+Inserting -15
+Inserting 27
+Inserting 36
+Inserting -35
+Inserting 33
+BST size = 10
+-35 has successor -29
+-29 has successor -15
+-15 has successor -1
+-1 has successor 12
+12 has successor 27
+27 has successor 33
+33 has successor 36
+36 has successor 42
+42 has successor 43
+43 has no sucessor

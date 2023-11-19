@@ -1,0 +1,18 @@
+Test 3: ------- Copy Constructor and assignment operator = -------
+Step 1: Create a 5 element list L1 = [1,2,3,4,5] 
+L1: [1, 2, 3, 4, 5]
+Step 2: pass L1  to a client function called CopyTest to test your copy constructor
+In copy test function, an element 6 is added to the copied list
+[1, 2, 3, 4, 5, 6]
+After copytest, the original shouldn't change 
+Step 3: Display L1 (this should still be a 5 element list)
+L1: [1, 2, 3, 4, 5]
+Step 4:  Assigning a list to itself shouldn't change it
+L1: [1, 2, 3, 4, 5]
+Step 5: Create a 4 element list L2 with 7,8,9,10.
+L2: [7, 8, 9, 10]
+Step 6:  L2 = L1, (L2 becomes 5 elements 1,2,3,4,5)
+L2: [1, 2, 3, 4, 5]
+Step 7: Remove a rear node from L1. (This should not affect L2)
+L1 :[1, 2, 3, 4]
+L2: [1, 2, 3, 4, 5]
