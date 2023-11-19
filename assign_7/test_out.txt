@@ -1,0 +1,21 @@
+	Testing the Hash table of customer orders 
+Number of Hashtable buckets: 23
+The initial # of orders: 0
+
+Reading orders from file orders.txt
+The # of orders: 100
+
+Updating the orders in the hash table
+Before update: 0 Michael 10	After update: 0 Michael 150
+Before update: 1 Christopher 20	After update: 1 Christopher 150
+Before update: 2 Jessica 30	After update: 2 Jessica 150
+Before update: 3 Matthew 40	After update: 3 Matthew 150
+Before update: 4 Ashley 50	After update: 4 Ashley 150
+Before update: 5 Jennifer 60	After update: 5 Jennifer 150
+Before update: 6 Joshua 70	After update: 6 Joshua 150
+Before update: 7 Amanda 80	After update: 7 Amanda 150
+Before update: 8 Daniel 90	After update: 8 Daniel 150
+Before update: 9 David 100	After update: 9 David 150
+Rehashing the hash table
+Number of Hashtable buckets: 47
+The # of Orders: 100
