@@ -1,0 +1,9 @@
+To trace a path from one node to another using DFS  
+Keep track of previous node in any path  
+Can alter DFS algorithm to keep track of previous Vertex  
+when you push new vertices to the stack, update previous to be currentV   
+(fuck around with it to make sure it works properly, might fail for adjecent vertices to starting vertex)  
+
+Breadth First Search runtime O(|V| + |E|)  
+Depth First Search runtime (O|V| + |E|)  
+Cycle Check runtime (O|V| + |E|)  
