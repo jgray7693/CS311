@@ -29,7 +29,7 @@ void Graph::addVertex(Vertex v){
 
 // @brief add a directed edge v1->v2 to the graph
 void Graph::addDirectedEdge(int v1, int v2, float weight){
-    if(v1 < numVerts && v2 < numVerts){
+    if(v1 < numVerts && v2 < numVerts && v1 >=0 && v2 >= 0){
         Edge edge(v1, v2, weight);
         adjList[v1].push_back(edge);
     }    
@@ -38,7 +38,7 @@ void Graph::addDirectedEdge(int v1, int v2, float weight){
 
 // @brief add an undirected edge to the graph
 void Graph::addUndirectedEdge(int v1, int v2, float weight){
-    if(v1 < numVerts && v2 < numVerts){
+    if(v1 < numVerts && v2 < numVerts && v1 >=0 && v2 >= 0){
         Edge edge1(v1, v2, weight);
         Edge edge2(v2, v1, weight);
         adjList[v1].push_back(edge1);
@@ -51,23 +51,31 @@ void Graph::addUndirectedEdge(int v1, int v2, float weight){
 // @brief the number of outgoing edges from a vertex
 int Graph::outDegree(int v)
 {
-    if(v < numVerts){
+    if(v < numVerts && v >= 0){
         return (int)adjList[v].size();
     }
     return -1;
 }
 
+
+
 // @brief depth first search from vertex v
+/**
+ * 
+*/
 vector<int> Graph::DepthFirstSearch(int v){
-    if(v < numVerts){
-        stack<int> vertexStack;
-        vector<int> visitedSet;
+    //try rewriting recursively?
+    vector<int> visitedSet;
+    if(v < numVerts && v >= 0){
+        stack<int> vertexStack; 
+        //add a vector of bools to vector<bool> visitedSet(false, numVerts);
         vertexStack.push(v);
 
         while(!vertexStack.empty()){
             int cur = vertexStack.top();
             vertexStack.pop();
             bool found = false;
+            //can then check visitedSet[cur] for true or false rather than looping
             for(vector<int>::iterator it=visitedSet.begin(); it != visitedSet.end(); ++it){
                 if(cur == *it){
                     found = true;
@@ -82,51 +90,34 @@ vector<int> Graph::DepthFirstSearch(int v){
                 }
             }
         }
-        return visitedSet;
     }
-    else{
-        vector<int> x;
-        return x;
-    }
+    return visitedSet;
     // TODO: Implement the depth first search algorithm
     // Add the vertex ID to a vector when it is visited
 }
 
 // @brief breadth first search from a vertex
 vector<int> Graph::BreadthFirstSearch(int v){
-    if(v < numVerts){
-        vector<int> visitedList;
+    vector<int> visitedList;
+    if(v < numVerts && v >= 0){
         queue<int> frontierQueue;
-        list<int> discoveredSet;
+        vector<bool> discoveredSet(numVerts, false);
         frontierQueue.push(v);
-        discoveredSet.push_back(v);
+        discoveredSet[v] = true;
         while(!frontierQueue.empty()){
             int cur = frontierQueue.front();
             frontierQueue.pop();
             visitedList.push_back(cur);
             for(Edge edge : adjList[cur]){
                 int adjV = edge.to_vertex;
-                bool found = false;
-                for(list<int>::iterator it=discoveredSet.begin(); it != discoveredSet.end(); ++it){
-                    if(adjV == *it){
-                        found = true;
-                        break;
-                    }
-                }
-                if(!found){
+                if(!discoveredSet[adjV]){
                     frontierQueue.push(adjV);
-                    discoveredSet.push_back(adjV);
+                    discoveredSet[adjV] = true;
                 }
             }
         }
-        return visitedList;
     }
-    else{
-        vector<int> x;
-        return x;
-    }
-    // TODO: Implement the breadth first search algorithm
-    // Add the vertex ID to a vector when it is visited
+    return visitedList;
 }
 
 /**
