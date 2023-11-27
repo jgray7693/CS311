@@ -94,6 +94,8 @@ public:
      */
     int outDegree(int v);
 
+    void DFSRecurse(int v, vector<int> &visitedSet, vector<bool> &discovered);
+
     /**
      * @brief Depth first search
      *
