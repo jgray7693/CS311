@@ -7,6 +7,13 @@ when you push new vertices to the stack, update previous to be currentV
 Breadth First Search runtime O (|V| + |E|)  
 Depth First Search runtime O (|V| + |E|)  
 Cycle Check runtime O (|V| + |E|)  
-Dijkstra's Algorithm runtime  
+Dijkstra's Algorithm - Represents shortest distance between vertices assuming no negative edges  
+    Runtime  
     Using a Min Heap - O((|V| + |E|)log|V|)  
     Using an Array - O(|V| * |V|)  
+Bellman-Fords Algorithm - Represents shortest distance between vertices with no negative edge weight cycles  
+    Runtime  
+Topological Sort - Directed edges, all vertices where X points to Y, X comes before Y in the path  
+    Runtime  
+Minimum Spanning Tree - Subset of the graphs edges that connect all vertices with the minimum sum edge weights  
+    Runtime  
