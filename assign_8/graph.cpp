@@ -91,6 +91,7 @@ int Graph::outDegree(int v){
  * @param visitedSet Vector of ints containing the visited vertices in order
  * @param discovered Vector of bools denoting which vertices have been visited
 */
+/*
 void Graph::DFSRecurse(int v, vector<int> &visitedSet, vector<bool> &discovered){
     //add v to the visitedSet vector and set v as discovered
     visitedSet.push_back(v);
@@ -103,12 +104,14 @@ void Graph::DFSRecurse(int v, vector<int> &visitedSet, vector<bool> &discovered)
         }
     }
 }
-
+*/
 /**
  * @brief Depth First Search using recursion on an input vertex
  * @param v Initial vertex to start DFS
  * @return Vector with proper order of DFS
 */
+
+/*
 vector<int> Graph::DepthFirstSearch(int v){
     //Initialize vectors visitedSet and discovered for use in DFSRecurse
     vector<int> visitedSet;
@@ -120,33 +123,24 @@ vector<int> Graph::DepthFirstSearch(int v){
     return visitedSet;
 }
 
-
+*/
 /**
  * @brief Depth First Search without recursion on an input vertex
  * @param v Initial vertex to start DFS
  * @return Vector with proper order of DFS
 */
-/*
+
 vector<int> Graph::DepthFirstSearch(int v){
-    //try rewriting recursively?
     vector<int> visitedSet;
     if(v < numVerts && v >= 0){
         stack<int> vertexStack; 
-        //add a vector of bools to vector<bool> visitedSet(false, numVerts);
+        vector<bool> discovered(numVerts, false);
         vertexStack.push(v);
-
         while(!vertexStack.empty()){
             int cur = vertexStack.top();
             vertexStack.pop();
-            bool found = false;
-            //can then check visitedSet[cur] for true or false rather than looping
-            for(vector<int>::iterator it=visitedSet.begin(); it != visitedSet.end(); ++it){
-                if(cur == *it){
-                    found = true;
-                    break;
-                }
-            }
-            if(!found){
+            if(!discovered[cur]){
+                discovered[cur] = true;
                 visitedSet.push_back(cur);
                 for(vector<Edge>::reverse_iterator i = adjList[cur].rbegin(); i != adjList[cur].rend(); ++i ){
                     int adjV = i->to_vertex;
@@ -156,7 +150,7 @@ vector<int> Graph::DepthFirstSearch(int v){
         }
     }
     return visitedSet;
-}*/
+}
 
 /**
  * @brief Breadth First Search on an input vertex
