@@ -29,9 +29,9 @@ int main(int argc, char *argv[]){
 	if (!fin.good()) throw "I/O error";
     Graph graph;
 	while(true) {
-        Vertex vertex;
-        if(fin >> vertex){
-            graph.addVertex(vertex);
+        City city;
+        if(fin >> city){
+            graph.addCity(city);
         }
 		else{
             break;
@@ -40,9 +40,9 @@ int main(int argc, char *argv[]){
     fin.close();
     fin.open("road.txt");
     while(true){
-        Edge edge;
-        if(fin >> edge){
-            graph.addDirectedEdge(edge.from_vertex, edge.to_vertex, edge.weight);
+        Road road;
+        if(fin >> road){
+            graph.addDirectedRoad(road.from_city, road.to_city, road.weight);
         }
         else{
             break;
