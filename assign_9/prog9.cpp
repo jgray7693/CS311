@@ -56,11 +56,11 @@ int main(int argc, char *argv[]){
     string s2 = argv[2];
     bool valid = false;
 
-    for(int i=0; i<graph.numVerts; i++){
-        if(graph.vertices[i].code == s1){
+    for(int i=0; i<graph.numCities; i++){
+        if(graph.cities[i].code == s1){
             from_city = i;
         }
-        if(graph.vertices[i].code == s2){
+        if(graph.cities[i].code == s2){
             to_city = i;
         }
         if(from_city > -1 && to_city > -1){
