@@ -22,6 +22,7 @@ Topological Sort - Directed edges, all vertices where X points to Y, X comes bef
           
 Minimum Spanning Tree - Subset of the graphs edges that connect all vertices with the minimum sum edge weights  
     Runtime  
-        Prim's Algorithm -  
+        Prim's Algorithm -  O((|V| + |E|) * log|V|), where |E| >= |V| => O(|E| * log|V|)  
+        Kruskal's Algorithm - O(|E| * log|V|)  
 
 Quiz Question: What is the minimum number of edges for a spanning tree in a directed graph?    
