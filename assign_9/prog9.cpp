@@ -1,15 +1,18 @@
 #include "graph.h"
 #include <fstream>
+#include <ctime>
 
 //using namespace std;
 
 int main(int argc, char *argv[]){
 
-    /*CString strTime;
-    CTime date;
-    date = GetCurrentTime();
-    strTime = date.Format(_T("%m/%d/%Y"));
-    */
+    std::time_t currentTime = std::time(nullptr);
+
+    // Convert the current time to a local time struct
+    std::tm* localTime = std::localtime(&currentTime);
+    int year = localTime->tm_year + 1900; // Years since 1900
+    int month = localTime->tm_mon + 1;    // Months start from 0
+    int day = localTime->tm_mday;
     if(argc != 3){
         cout << "Invalid city arguments.\n";
         cout << "Usage:\t./prog9 [From_City code] [To_City code]\n\n";
@@ -17,7 +20,7 @@ int main(int argc, char *argv[]){
     }
 
     cout << "Author: Jason Gray, Jacob Zacharia, Gavin Rosander\n";
-    cout << "Date: \n"; //include date MM/DD/YYYY
+    cout << "Date: " << month << "/" << day << "/" << year << endl; //include date MM/DD/YYYY
     cout << "Course: CS311 (Data Structures and Algorithms)\n";
     cout << "Description: Program to find the shortest route between cities\n";
     cout << "----------------------------------------------------------------\n";
