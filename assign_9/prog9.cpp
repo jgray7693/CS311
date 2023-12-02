@@ -1,10 +1,7 @@
 #include "graph.h"
-#include <iostream>
 #include <fstream>
-//#include <cstring>
-//#include <ctime>
 
-using namespace std;
+//using namespace std;
 
 int main(int argc, char *argv[]){
 
@@ -54,7 +51,7 @@ int main(int argc, char *argv[]){
     int to_city = -1;
     string s1 = argv[1];
     string s2 = argv[2];
-    bool valid = false;
+    bool validCities = false;
 
     for(int i=0; i<graph.numCities; i++){
         if(graph.cities[i].code == s1){
@@ -64,14 +61,14 @@ int main(int argc, char *argv[]){
             to_city = i;
         }
         if(from_city > -1 && to_city > -1){
-            valid = true;
+            validCities = true;
             break;
         }
     }
-    if(valid && from_city != to_city){
+    if(validCities && from_city != to_city){
         graph.printCities(from_city, to_city);
     }
-    else if(!valid){
+    else if(!validCities){
         if(from_city == -1){
             cout << "Invalid city code: " << s1 << endl << endl;
         }
