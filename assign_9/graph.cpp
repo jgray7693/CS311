@@ -65,6 +65,52 @@ void Graph::printCities(int c1, int c2){
         << ", elevation " << cities[c1].elevation << endl;
     cout << "To City: " << cities[c2].name << ", population " << cities[c2].population 
         << ", elevation " << cities[c2].elevation << endl;
-    cout << "The shortest distance from " << cities[c1].name << " to " << cities[c2].name <<
-        " is " << "NOW INSERT DJIKSTRAS ALGO HERE AND CALCULATE DISTANCE AND PATH\n\n";
+    dijkstrasPath(c1, c2);
+}
+
+void Graph::dijkstrasPath(int c1, int c2){
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    vector<bool> visited(numCities, false);
+    vector<int> previous(numCities, -1);
+    vector<int> distance(numCities, 99999);
+
+    distance[c1] = 0;
+    pq.push({0, c1});
+    
+    while(!pq.empty()){
+        int c = pq.top().second;
+        pq.pop();
+        visited[c] = true;
+        for(Road road : adjList[c]){
+            if(!visited[road.to_city]){
+                int tempDistance = distance[c] + road.weight;
+                if(tempDistance < distance[road.to_city]){
+                    previous[road.to_city] = c;
+                    distance[road.to_city] = tempDistance;
+                    pq.push({tempDistance, road.to_city});
+                }
+            }
+        }
+    }
+    if(previous[c2] == -1){
+        cout << "No route from " << cities[c1].name << " to " << cities[c2].name << "\n\n";
+    }
+    else{
+        cout << "The shortest distance from " << cities[c1].name << " to " << cities[c2].name <<
+            " is " << distance[c2] << endl;
+        stack<int> stack;
+        stack.push(c2);
+        int last = previous[c2];
+        while(last != -1){
+            stack.push(last);
+            last = previous[last];
+        }
+        cout << "through the route: ";
+        while(stack.top() != c2){
+            cout << cities[stack.top()].name << "->";
+            stack.pop();
+        }
+        cout << cities[stack.top()].name << "\n\n";
+    }
+    
 }

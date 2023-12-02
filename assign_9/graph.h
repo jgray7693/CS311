@@ -5,6 +5,8 @@
 #pragma once
 #include <vector>
 #include <iostream>
+#include <queue>
+#include <stack>
 using namespace std;
 
 /**
@@ -116,5 +118,7 @@ public:
      * @param c2 Destination city
     */
     void printCities(int c1, int c2);
+
+    void dijkstrasPath(int c1, int c2);
 
 };
