@@ -13,7 +13,7 @@ using namespace std;
 
 /**
  * @brief City struct. It represents a location connected by roads.
- */
+*/
 struct City{
     int id; //The index of the city starting from 0
     string code; //The city code.
@@ -50,7 +50,7 @@ struct City{
 
 /**
  * @brief Road struct. It represents a road from one city to another.
- */
+*/
 struct Road{
     int from_city; // The index of the city where the road starts
     int to_city; // The index of the city where the road ends.
@@ -82,7 +82,7 @@ struct Road{
 
 /**
  * @brief Graph class
- */
+*/
 class Graph{
 public:
     int numCities;    // No. of cities
@@ -103,16 +103,14 @@ public:
     /**
      * @brief Add a city to the graph
      * @param c The city to be added
-     */
+    */
     void addCity(City c);
 
     /**
      * @brief Add a directed road from c1 to c2 to the graph
-     * @param c1 The index of the city where the road starts
-     * @param c2 The index of the city where the road ends
-     * @param weight The weight of the road
-     */
-    void addDirectedRoad(int c1, int c2, int weight = 1);
+     * @param road The road to be added
+    */
+    void addDirectedRoad(Road road);
 
     /**
      * @brief Print standardized output from one city to another
@@ -121,6 +119,11 @@ public:
     */
     void printCities(int c1, int c2);
 
+    /**
+     * @brief Find shortest path from city c1 to city c2 and print results if path exists
+     * @param c1 Starting city
+     * @param c2 Destination city
+    */
     void dijkstrasPath(int c1, int c2);
 
 };
