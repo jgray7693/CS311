@@ -72,7 +72,7 @@ void Graph::printCities(int c1, int c2){
  * @param c2 Destination city
 */
 void Graph::dijkstrasPath(int c1, int c2){
-    //initialize STL priority queue. Implement PQ using a min heap and pairs as nodes. The pair is implemented as <city id, distance>
+    //initialize STL priority queue. Implement PQ using a min heap and pairs as nodes. The pair is implemented as <distance, city id>
     //using distance as the priority value
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
     //initialize a visited vector, to keep track of cities already visited

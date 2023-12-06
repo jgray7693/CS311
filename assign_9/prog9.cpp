@@ -106,7 +106,5 @@ int main(int argc, char *argv[]){
     else{
         cout << "From City and To City are the same location\nPlease enter different locations.\n\n";
     }
-
     return 0;
-
 }
